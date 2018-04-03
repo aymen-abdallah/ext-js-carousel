@@ -1,7 +1,7 @@
 Ext js Carousel
 ===============
-This component is not a scrolling classic carousel. This carousel moves following the shape of an ellipse.
-Each Image in this carousel has a reflection and a tooltip.
+This component is not a classic scrolling carousel. This carousel moves following the shape of an ellipse.
+Each Image in this carousel has a reflection and a tooltip. You can rotate it either to the left or to the right.
 
 This component is inspired by a jquery component called : [CloudCarousel 1.0.5](http://www.professorcloud.com).
 
@@ -14,15 +14,15 @@ Here is an example using the Carousel extension.
 HTML mark-up :
 
 ```
-    <div id="carousel-div"></div>
-	
-	<!-- Define left and right buttons. -->
-	<input id="left-but"  type="button" value="Left" />
-	<input id="right-but" type="button" value="Right" />
+<div id="carousel-div"></div>
 
-	<!-- Define elements to accept the alt and title text from the images. -->
-	<p id="title-text"></p>
-	<p id="alt-text"></p>
+<!-- Define left and right buttons. -->
+<input id="left-but"  type="button" value="Left" />
+<input id="right-but" type="button" value="Right" />
+
+<!-- Define elements to accept the alt and title text from the images. -->
+<p id="title-text"></p>
+<p id="alt-text"></p>
 ```
 
 The style
