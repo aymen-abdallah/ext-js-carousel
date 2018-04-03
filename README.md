@@ -1,8 +1,11 @@
 Ext js Carousel
 ===============
-This component is a container for showing carousel. We add to this carousel the reflection for images. 
-This version of carousel is based on Ext JS 4.0.7. This component is also based on a jquery component : 
-[CloudCarousel 1.0.5](http://www.professorcloud.com).
+This component is not a scrolling classic carousel. This carousel moves following the shape of an ellipse.
+Each Image in this carousel has a reflection and a tooltip.
+
+This component is inspired by a jquery component called : [CloudCarousel 1.0.5](http://www.professorcloud.com).
+
+The codebase of this carousel is based on Ext JS 4.0.7. 
 
 Example
 -------
@@ -11,23 +14,27 @@ Here is an example using the Carousel extension.
 HTML mark-up :
 
 ```
-<div id="carousel-div"></div>
-<input id="left-but"  type="button" value="Left" />
-<input id="right-but" type="button" value="Right" />
-<p id="title-text"></p>
-<p id="alt-text"></p>
+    <div id="carousel-div"></div>
+	
+	<!-- Define left and right buttons. -->
+	<input id="left-but"  type="button" value="Left" />
+	<input id="right-but" type="button" value="Right" />
+
+	<!-- Define elements to accept the alt and title text from the images. -->
+	<p id="title-text"></p>
+	<p id="alt-text"></p>
 ```
 
 The style
 ```
-carousel-div{
+.carousel-div {
     width:560px; 
     height:400px; 
     background:#000; 
 }
 ```
 
-The applied model is like the following one :
+The applied model :
 ```
 Ext.define('Carousel',{ 
     extend: 'Ext.data.Model',
@@ -39,7 +46,7 @@ Ext.define('Carousel',{
 });
 ```
 
-The store may be like the following one :
+The store :
 ```
 Ext.define('Ext.store.Carousel', { 
     extend: 'Ext.data.Store',
@@ -73,12 +80,15 @@ Ext.onReady(function() {
     }); 
 });
 ```
+
+The output would be like the photo below :
+
 <img class="img-responsive" src="doc/carousel.jpg" />
 
 Configuration
 -------------
 
-The table below contains the available config options :
+The table below contains the different available config options that you can apply on the component :
 
 |Parameter|Description|Default Value| 
 |:------------|:--------------|:----------------| 
