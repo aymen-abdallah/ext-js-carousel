@@ -1,6 +1,6 @@
 /**
- * @author Aymen ABDALLAH <aymen.abdallah@gmail.com>
- * @docauthor Aymen ABDALLAH
+ * @author Aymen Abdallah <aymen.abdallah@gmail.com>
+ * @docauthor Aymen Abdallah
  */
 Ext.define('Ext.store.Carousel', {
     extend: 'Ext.data.Store',

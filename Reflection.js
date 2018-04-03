@@ -1,6 +1,6 @@
 /**
- * @author Aymen ABDALLAH <aymen.abdallah@gmail.com>
- * @docauthor Aymen ABDALLAH
+ * @author Aymen Abdallah <aymen.abdallah@gmail.com>
+ * @docauthor Aymen Abdallah
  * @class Ext.ux.Reflection
  */
 Ext.define('Ext.ux.Reflection', {

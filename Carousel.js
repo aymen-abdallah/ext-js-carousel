@@ -1,6 +1,6 @@
 /**
- * @author Aymen ABDALLAH <aymen.abdallah@gmail.com>
- * @docauthor Aymen ABDALLAH
+ * @author Aymen Abdallah <aymen.abdallah@gmail.com>
+ * @docauthor Aymen Abdallah
  * @class Ext.ux.Carousel
  *
  * A container for showing carousel. We add to this carousel the reflection for images.
